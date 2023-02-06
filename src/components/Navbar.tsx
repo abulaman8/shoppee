@@ -21,7 +21,7 @@ export const Navbar = () => {
             <Container>
                 <Nav className='me-auto'>
                 <Nb.Brand>SHOPPEE</Nb.Brand>
-                    <Nav.Link to = "/store" as={NavLink}>
+                    <Nav.Link to = "/" as={NavLink}>
                         Home
                     </Nav.Link>
                     <Nav.Link to = "/about" as={NavLink}>

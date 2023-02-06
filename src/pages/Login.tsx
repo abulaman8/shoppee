@@ -43,7 +43,7 @@ export const Login = () => {
                     }
                     setUser(data)
                     localStorage.setItem('token', data.token)
-                    navigate('/store')
+                    navigate('/')
                     
                   })
                   .catch(
